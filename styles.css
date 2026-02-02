@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  background: #f7f7f2;
+  color: #1f1f1f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.page {
+  display: grid;
+  gap: 28px;
+  justify-items: start;
+}
+
+.gridOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  width: 500px;
+  padding: 16px;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 12px;
+  width: 500px;
+  padding: 16px;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+}
+
+.gridTwoAlpha {
+  background: #f26b5b;
+  padding: 12px;
+  color: #111111;
+}
+
+.gridTwoBeta {
+  background: #3b82f6;
+  padding: 12px;
+  color: #ffffff;
+}
+
+.gridTwoGamma {
+  background: #facc15;
+  padding: 12px;
+  color: #111111;
+}
+
+.gridThree {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  width: 500px;
+  height: 300px;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+}
+
+.gridThreeText {
+  background: #e0f2fe;
+  padding: 12px;
+}
+
+.gridThreeImage {
+  background: #fde2e2;
+}
+
+.gridThree img {
+  width: 500px;
+  height: 225px;
+  object-fit: cover;
+  display: block;
+}
+
+.gridFour {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 500px;
+  height: 200px;
+  background: #4caf50;
+  padding: 12px;
+  gap: 12px;
+  color: #0b2c13;
+}
+
+.gridFourText {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 12px;
+}
+
+#gridFourNested {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12px;
+}
+
+.gridFive {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 500px;
+  height: 400px;
+  background: #4caf50;
+  padding: 12px;
+  gap: 12px;
+  color: #0b2c13;
+}
+
+.gridFiveText {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 12px;
+}
+
+.gridFiveMedia {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+}
+
+.gridFiveMedia img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.gridSix {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  gap: 16px;
+  width: 500px;
+  padding: 16px;
+  background: #e5e7eb;
+  border: 1px solid #cbd5f5;
+}
+
+.gridSix i {
+  font-size: 42px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.gridSix p {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 0;
+}

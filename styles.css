@@ -37,19 +37,19 @@ body {
 }
 
 .gridTwoAlpha {
-  background: #f26b5b;
+  background: red;
   padding: 12px;
   color: #111111;
 }
 
 .gridTwoBeta {
-  background: #3b82f6;
+  background: blue;
   padding: 12px;
   color: #ffffff;
 }
 
 .gridTwoGamma {
-  background: #facc15;
+  background: yellow;
   padding: 12px;
   color: #111111;
 }
@@ -84,14 +84,13 @@ body {
   grid-template-rows: 1fr 1fr;
   width: 500px;
   height: 200px;
-  background: #4caf50;
+  background: green;
   padding: 12px;
   gap: 12px;
-  color: #0b2c13;
+  color: #111111;
 }
 
 .gridFourText {
-  background: rgba(255, 255, 255, 0.6);
   padding: 12px;
 }
 
@@ -99,7 +98,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
-  background: rgba(255, 255, 255, 0.8);
   padding: 12px;
 }
 
@@ -108,14 +106,13 @@ body {
   grid-template-rows: 1fr 1fr;
   width: 500px;
   height: 400px;
-  background: #4caf50;
+  background: green;
   padding: 12px;
   gap: 12px;
-  color: #0b2c13;
+  color: #111111;
 }
 
 .gridFiveText {
-  background: rgba(255, 255, 255, 0.6);
   padding: 12px;
 }
 

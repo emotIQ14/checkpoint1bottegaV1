@@ -107,8 +107,7 @@ body {
   width: 500px;
   height: 400px;
   background: green;
-  padding: 12px;
-  gap: 12px;
+  gap: 0;
   color: #111111;
 }
 
